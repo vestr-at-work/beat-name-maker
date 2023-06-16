@@ -1,0 +1,13 @@
+@media (max-width: 720px) {
+    div.container {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 720px) {
+    div.container {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
