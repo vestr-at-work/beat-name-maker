@@ -1,4 +1,4 @@
-@media (max-width: 720px) {
+/*@media (max-width: 720px) {
     div.container {
         width: 80%;
         margin-left: 10%;
@@ -10,4 +10,54 @@
         width: 50%;
         margin-left: 25%;
     }
+}
+*/
+div.container {
+    position: absolute;
+    font-size: 5vw; /* Responsive font size */
+    font-weight: bolder;
+    margin: 0 auto; /* Center the text container */
+    width: 50%;
+    text-align: center; /* Center text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+div.container input {
+    padding-top: 0;
+    margin-top: 4vh;
+    font-size: 5vh;
+    font-weight: bold;
+    width: 35%;
+    height: 10vh;
+    background-color: rgb(71, 68, 66);
+    color: black;
+    border-radius: 0.5em;
+    border-color: rgb(113, 105, 96);
+    transition-duration: 0.4s;
+}
+
+div.container input:hover {
+    width: 30%;
+    border-radius: 0.6em;
+    border-color:antiquewhite;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+h1 {
+    text-align: center; /* Center text */
+    position: absolute;
+    margin-top: 90vh;
+    margin-left: 4vw;
+}
+
+body {
+    background: rgb(111,29,18);
+    background: linear-gradient(90deg, rgba(111,29,18,1) 0%, rgba(38,15,54,1) 50%, rgba(111,29,18,1) 100%); 
+
+    color: rgb(111,29,18);
+    mix-blend-mode: screen;
 }

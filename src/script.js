@@ -5,8 +5,8 @@ function onClick() {
     const secondNounIndex = Math.floor(Math.random() * nouns.length);
 
     console.log(nouns.length);
-    const outputTextArea = document.getElementById("output");
-    outputTextArea.value = nouns[firstNounIndex] + nouns[secondNounIndex];
+    const outputElement = document.getElementById("output");
+    outputElement.innerText = nouns[firstNounIndex] + nouns[secondNounIndex];
 }
 
 function loadNounData() {
